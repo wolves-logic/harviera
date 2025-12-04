@@ -14,7 +14,7 @@ export default function CaseStudiesCtaStrip() {
       transition={{ duration: 0.6 }}
       className="relative"
     >
-      <div className="glass-card p-8 md:p-12 bg-gradient-to-br from-lavender/50 via-mint/40 to-sky/40 text-center shadow-xl transition-all ease-soft hover:scale-[1.01]">
+      <div className="glass-card-vibrant p-8 md:p-12 bg-gradient-cta shadow-glow-warm border border-accent/40 text-center transition-all duration-500 ease-soft hover:scale-[1.02] hover:shadow-glow-accent">
         <div className="max-w-2xl mx-auto space-y-5">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/60 mb-2">
             <MessageSquare className="h-8 w-8 text-gray-800" />

@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="sticky top-0 z-50">
       <div className="page-container pt-4">
-        <header className="glass-card rounded-b-3xl px-4 py-3">
+        <header className="glass-card-vibrant rounded-b-3xl px-4 py-3 border border-accent/30 shadow-soft-pastel\">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <img src="/logo.svg" alt="Harviera" className="h-8 w-8" />

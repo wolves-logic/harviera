@@ -24,7 +24,7 @@ export default function ResourcesCtaStrip() {
       transition={{ duration: 0.6 }}
       className="relative"
     >
-      <div className="glass-card p-8 md:p-12 bg-gradient-to-br from-sky/50 via-lavender/40 to-mint/40 text-center shadow-xl transition-all ease-soft hover:scale-[1.01]">
+      <div className="glass-card-vibrant p-8 md:p-12 bg-gradient-cta shadow-glow-warm border border-accent/40 text-center transition-all duration-500 ease-soft hover:scale-[1.02] hover:shadow-glow-accent">
         <div className="max-w-2xl mx-auto space-y-5">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/60 mb-2">
             <Bell className="h-8 w-8 text-gray-800" />

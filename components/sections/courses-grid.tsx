@@ -163,11 +163,11 @@ export default function CoursesGrid() {
               }}
               className="flex"
             >
-              <div className="glass-card p-6 flex flex-col h-full transition-all ease-soft hover:-translate-y-1 hover:shadow-xl">
+              <div className="glass-card-vibrant p-6 flex flex-col h-full border border-accent/30 transition-all duration-300 ease-soft hover:-translate-y-2 hover:shadow-glow-accent hover:border-accent/50\">
                 {/* Category Badge */}
                 <div className="flex items-center justify-between mb-4">
-                  <span className={`inline-flex items-center gap-1 px-3 py-1 text-xs font-medium ${course.categoryColor} rounded-full`}>
-                    <Icon className="h-3 w-3" />
+                  <span className={`inline-flex items-center gap-1 px-3 py-1.5 text-xs font-medium ${course.categoryColor} rounded-full shadow-soft-pastel`}>
+                    <Icon className="h-3.5 w-3.5" />
                     {course.category}
                   </span>
                   <span className="text-xs text-gray-600">{course.level}</span>

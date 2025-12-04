@@ -18,9 +18,9 @@ export default function ServiceCategoryCard({
   accentColor 
 }: ServiceCategoryCardProps) {
   return (
-    <div className="glass-card p-6 md:p-7 relative overflow-hidden transition-all ease-soft hover:-translate-y-1 hover:shadow-xl">
+    <div className="glass-card-vibrant p-6 md:p-7 relative overflow-hidden border border-accent/30 transition-all duration-300 ease-soft hover:-translate-y-2 hover:shadow-glow-accent hover:border-accent/50">
       {/* Accent top bar */}
-      <div className={`absolute top-0 left-0 right-0 h-1 ${accentColor}`} />
+      <div className={`absolute top-0 left-0 right-0 h-1.5 ${accentColor} shadow-glow-accent`} />
       
       {/* Icon */}
       <div className={`inline-flex items-center justify-center w-14 h-14 rounded-2xl ${accentColor} mb-4`}>
