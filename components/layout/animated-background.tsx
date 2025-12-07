@@ -30,7 +30,7 @@ export default function AnimatedBackground() {
       <div
         className="absolute top-1/2 left-[-10rem] h-[24rem] w-[24rem] rounded-full blur-3xl opacity-45"
         style={{
-          background: 'radial-gradient(closest-side, #FB923C 45%, #FFD9C2 70%, transparent)',
+          background: 'radial-gradient(closest-side, #38BDF8 45%, #D9EFFF 70%, transparent)',
           animation: 'harviera-float-4 28s ease-in-out infinite',
         }}
       />

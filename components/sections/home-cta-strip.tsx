@@ -7,7 +7,7 @@ export default function HomeCtaStrip() {
     <div className="relative">
       {/* Background Image with Overlay */}
       <div className="fixed inset-0 w-full h-full -z-10">
-        <div className="absolute inset-0 bg-gradient-cta-warm" />
+        <div className="absolute inset-0 bg-gradient-linear-hero" />
         <div 
           className="absolute inset-0 opacity-10"
           style={{
@@ -18,7 +18,7 @@ export default function HomeCtaStrip() {
         />
       </div>
 
-      <div className="glass-card-vibrant p-10 bg-gradient-cta shadow-glow-warm border border-accent/40 transition-all duration-500 ease-soft hover:scale-[1.02] hover:shadow-glow-accent relative">
+      <div className="glass-card-vibrant p-10 bg-gradient-cta shadow-glow-accent border border-accent/40 transition-all duration-500 ease-soft hover:scale-[1.02] hover:shadow-glow-accent relative">
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight">
             Ready to modernize your IT, AI, and education ecosystem?

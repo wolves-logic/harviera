@@ -98,7 +98,7 @@ export default function HomeHero() {
             </div>
 
             <MotionDiv
-              className="glass-card p-4 bg-peach/40"
+              className="glass-card p-4 bg-lavender/40"
               animate={{ y: [0, -4, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
             >
