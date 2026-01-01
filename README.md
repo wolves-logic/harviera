@@ -66,6 +66,5 @@ Since there are no server-side requirements (no dynamic API routes), this site i
 
 **Compatible Hosts:**
 - GitHub Pages
-- Vercel
 - Netlify
 - Any static hosting provider
