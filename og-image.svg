@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7D7FF"/>
+      <stop offset="1" stop-color="#D9EFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <g opacity="0.6">
+    <circle cx="220" cy="160" r="160" fill="#FFE7EF"/>
+    <circle cx="980" cy="220" r="180" fill="#FFD9C2"/>
+    <circle cx="600" cy="480" r="140" fill="#CFF3FF"/>
+  </g>
+  <text x="72" y="360" font-family="Inter, system-ui, -apple-system, Segoe UI" font-size="72" fill="#0F172A" font-weight="600">Harviera IT Solutions</text>
+  <text x="72" y="420" font-family="Inter, system-ui, -apple-system, Segoe UI" font-size="32" fill="#334155">Modern engineering + human-centered design</text>
+</svg>
